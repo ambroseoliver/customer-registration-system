@@ -31,9 +31,7 @@ $successMessage = is_string($flash['success'] ?? null) ? $flash['success'] : '';
     <header class="site-header">
         <a class="brand" href="index.php" aria-label="Luma home">
             <span class="brand-mark" aria-hidden="true">
-                <svg viewBox="0 0 32 32" fill="none">
-                    <path d="M16 2.5 19.9 12.1 29.5 16l-9.6 3.9L16 29.5l-3.9-9.6L2.5 16l9.6-3.9L16 2.5Z" fill="currentColor"/>
-                </svg>
+                
             </span>
             
         </a>
@@ -42,7 +40,7 @@ $successMessage = is_string($flash['success'] ?? null) ? $flash['success'] : '';
 
     <main class="page-shell">
         <section class="intro" aria-labelledby="page-title">
-            <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> WELCOME TO LUMA</p>
+            <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Sign Up</p>
             <h1 id="page-title">Good things<br>start <span>here.</span></h1>
             <p class="intro-copy">Create your customer profile to get started. Share your contact details and a little about what you’re looking for.</p>
 
@@ -160,7 +158,7 @@ $successMessage = is_string($flash['success'] ?? null) ? $flash['success'] : '';
     </main>
 
     <footer class="site-footer">
-        <span>© <span id="current-year"><?= date('Y') ?></span> Luma. Thoughtfully here for you.</span>
+        <span>© <span id="current-year"><?= date('Y') ?></span> Here for you.</span>
         <span>We’re glad you’re here.</span>
     </footer>
 </body>
