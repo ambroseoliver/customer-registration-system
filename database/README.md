@@ -6,7 +6,7 @@ The application uses MySQL through PDO. Create the database, apply the schema, a
 - `DB_PORT` (optional; defaults to `3306`)
 - `DB_NAME`
 - `DB_USER`
-- `DB_PASSWORD` (set this even when the database user has an empty password)
+- `DB_PASSWORD` (required and non-empty)
 
 Create the database and apply the table schema:
 
