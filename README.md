@@ -1,4 +1,4 @@
-# Luma Customer Registration
+# Customer Registration
 
 A lightweight customer-registration application built with PHP, MySQL, and PDO. Visitors can submit their name, email address, phone number, and a short message through a responsive web form. Valid submissions are stored in MySQL; invalid submissions return to the form with helpful field-level feedback.
 
